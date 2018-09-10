@@ -7,31 +7,68 @@ body{
   align-items: center;
 }
 
-.header{
+header{
+  background-color: color;
   position: fixed;
+  display: inline-block;
+  width: 100%;
+  z-index: 5px;
+}
+
+.logo{
+  height: 50px;
+  padding: 19px 10px;
+
+}
+
+nav span{
+  margin:0px auto;
+  text-decoration: underline;
 }
 
 
-.header img{
+header img{
   height: 50px;
   padding: 0px 10px;
 }
 
-.header span{
+header span{
   text-decoration: underline;
 }
 
-.content_one{
-  text-content: center;
-  background-color: color:
+.content_one {
+  background-image: url("../mission-background.jpg")
   width: 1200px;
-  margin: 10px auto;
-  padding: 30px;
-
-}
-
-.content_one img{
   height: 700px;
   padding-top: 69px;
   border-bottom: 1px solid seashell;
+
+}
+
+.content{
+  background-color: black;
+  text-content: center;
+  margin: 10px auto;
+  padding: 0px 30px;
+}
+
+.content_two{
+  width: 1000px;
+}
+
+.content_two {
+
+}
+
+.content_three img{
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-space-around;
+  height: 200px;
+  width: 300px;
+}
+
+content.three span{
+  padding-top: 10px;
+  flex-direction: column;
 }
