@@ -3,72 +3,45 @@ body{
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
-  align-items: center;
+  opacity:inherit;
+  text-align: center;
 }
 
-header{
-  background-color: color;
-  position: fixed;
-  display: inline-block;
-  width: 100%;
-  z-index: 5px;
-}
-
-.logo{
-  height: 50px;
-  padding: 19px 10px;
-
+a{
+  color: seashell;
 }
 
 nav span{
-  margin:0px auto;
-  text-decoration: underline;
+  display: inline-block;
 }
 
-
-header img{
-  height: 50px;
-  padding: 0px 10px;
-}
-
-header span{
-  text-decoration: underline;
-}
-
-.content_one {
-  background-image: url("../mission-background.jpg")
-  width: 1200px;
-  height: 700px;
-  padding-top: 69px;
-  border-bottom: 1px solid seashell;
-
-}
-
-.content{
-  background-color: black;
-  text-content: center;
-  margin: 10px auto;
-  padding: 0px 30px;
-}
-
-.content_two{
-  width: 1000px;
-}
-
-.content_two {
-
-}
-
-.content_three img{
-  flex-wrap: wrap;
+header{
+  display: flex;
   align-items: center;
-  justify-content: space-space-around;
-  height: 200px;
-  width: 300px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid seashell;
 }
 
-content.three span{
-  padding-top: 10px;
-  flex-direction: column;
+.logo{
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+
+}
+
+.logo img{
+  height: 50px;
+
+}
+
+.logo span {
+  color: seashell;
+  float: right;
+}
+
+header nav{
+  padding left: 80px;
 }
