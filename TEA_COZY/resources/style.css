@@ -56,12 +56,14 @@ header{
 
 .content_one_image{
   background-image: url("../images/mission-background.jpg")
+  align-items: center;
 
 }
 
 .content_one_content{
+
   background-color: black;
   width: 1200px;
-  text-align: center;
+
 
 }
