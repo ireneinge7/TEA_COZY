@@ -63,26 +63,15 @@ header{
 }
 
 .container_two{
-  display: inline-flex;
+  display: flex;
+  flex-direction: row-reverse;
   width: 1000px;
-  justify-content: space-between;
-
-}
-
-.container_two_content{
-  text-align: center;
-  padding: 10px auto;
+  justify-content: center;
 
 }
 
 
-.container_two_image img{
-  width: 300px;
+.container_two img{
   height: 200px;
-
-
-}
-
-.container_two_image h4{
-  padding-top: 10px;
+  width: 300px;
 }
