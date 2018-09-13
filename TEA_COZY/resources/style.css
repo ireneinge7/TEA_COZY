@@ -49,21 +49,40 @@ header{
 
 .container_one{
   display: flex;
+  background-image: url("../images/mission-background.jpg");
   width: 1200px;
   height: 700px;
-  padding-top: 69px;
-}
-
-.content_one_image{
-  background-image: url("../images/mission-background.jpg")
-  align-items: center;
+  align-items: center; /*align items which is the image to be at the center */
+  /*justify-content:center; */ /*justify content will be applied if the width is not 100%*/
 
 }
 
-.content_one_content{
-
+.container_one_content{
   background-color: black;
   width: 1200px;
+}
+
+.container_two{
+  display: inline-flex;
+  width: 1000px;
+  justify-content: space-between;
+
+}
+
+.container_two_content{
+  text-align: center;
+  padding: 10px auto;
+
+}
 
 
+.container_two_image img{
+  width: 300px;
+  height: 200px;
+
+
+}
+
+.container_two_image h4{
+  padding-top: 10px;
 }
