@@ -52,6 +52,7 @@ header{
   background-image: url("../images/mission-background.jpg");
   width: 1200px;
   height: 700px;
+  margin: auto;
   align-items: center; /*align items which is the image to be at the center */
   /*justify-content:center; */ /*justify content will be applied if the width is not 100%*/
 
@@ -64,14 +65,79 @@ header{
 
 .container_two{
   display: flex;
-  flex-direction: row-reverse;
-  width: 1000px;
   justify-content: center;
-
 }
-
 
 .container_two img{
   height: 200px;
   width: 300px;
+  margin: 10px;
+}
+
+.container_two h4{
+  margin: 10px auto;
+}
+
+.container_three{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  display:flex;
+  justify-content:center;
+  width:1200px;
+  height: 500px;
+  margin: auto;
+}
+
+
+.container_three_location h2{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.location_hold{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.location_hold .Downtown{
+  background-color: black;
+  opacity: 1px;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: 40px;
+  margin-top: 15px;
+  width:300px;
+
+}
+
+.location_hold .East_Bayside{
+  background-color: black;
+  opacity: 1px;
+  border: 1px solid black;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 15px;
+  width:300px;
+
+}
+
+.location_hold .Oakdale{
+  background-color: black;
+  opacity: 1px;
+  border: 1px solid black;
+  margin-left: 40px;
+  margin-top: 15px;
+  width:300px;
+
+}
+
+.content_four{
+  height:200px;
+}
+
+footer{
+  display:flex;
+  justify-content: flex-start;
+
 }
