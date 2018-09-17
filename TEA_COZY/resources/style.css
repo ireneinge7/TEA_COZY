@@ -81,6 +81,8 @@ header{
 .container_three{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   display:flex;
+  flex-direction: column; /*to make it on top of the boxes since it is the child of container_three it will be align to each other */
+  /* this will effect the immediate child which is container_three_location and location_hold*/
   justify-content:center;
   width:1200px;
   height: 500px;
@@ -89,14 +91,15 @@ header{
 
 
 .container_three_location h2{
+
   text-align: center;
   margin-bottom: 15px;
 }
 
 .location_hold{
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  /*align-items: center;*/
 
 }
 
@@ -104,9 +107,7 @@ header{
   background-color: black;
   opacity: 1px;
   border: 1px solid black;
-  margin-left: auto;
-  margin-right: 40px;
-  margin-top: 15px;
+  margin: 15px 40px;
   width:300px;
 
 }
@@ -115,9 +116,7 @@ header{
   background-color: black;
   opacity: 1px;
   border: 1px solid black;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 15px;
+  margin: 15px 40px;
   width:300px;
 
 }
@@ -126,8 +125,7 @@ header{
   background-color: black;
   opacity: 1px;
   border: 1px solid black;
-  margin-left: 40px;
-  margin-top: 15px;
+  margin: 15px 40px;
   width:300px;
 
 }
@@ -141,3 +139,4 @@ footer{
   justify-content: flex-start;
 
 }
+
